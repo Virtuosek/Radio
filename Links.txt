@@ -1,8 +1,0 @@
-Evernote:
----------
-https://www.evernote.com/shard/s511/sh/906d70ea-e262-437c-a379-b29083e72a1c/580edfcc8780136d6330d83ba0d46593
-
-
-Git:
-----
-https://github.com/Virtuosek/Radio.git
