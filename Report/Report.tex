@@ -1,0 +1,137 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsfonts, amsmath, amssymb}
+\usepackage[none]{hyphenat}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[nottoc, notlot, notlof]{tocbibind}
+\usepackage{hyperref}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[L]{\slshape \MakeUppercase{Radio}}
+\fancyhead[R]{\slshape Diagrams}
+\fancyfoot[C]{\thepage}
+\renewcommand{\footrulewidth}{0pt}
+
+\parindent 0ex %
+\renewcommand{\baselinestretch}{1.5}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\vspace*{1cm}
+\Large{\textbf{Software Modeling}}\\
+\Large{\textbf{Modeling and Implementation Phase}}
+\vfill
+\line(1,0){400}\\[1mm]
+\huge{\textbf{“Radio Simulation”}}\\[3mm]
+\Large{\textbf{- Diagrams -}}\\[1mm]
+\line(1,0){400}\\
+\vfill
+By ESSAFSYFY Abdelkrim and MELUZOLA KIMFUTA Gingu\\
+Academic year 2019-2020
+\end{center}
+\end{titlepage}
+
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+\setcounter{page}{1}
+
+\section{Use case diagram}
+\subsection{Diagram}
+\vspace{10px}
+\begin{center}
+%\includegraphics[width=15cm]{./img/useCaseD.jpg}\\
+\end{center}
+
+\subsection{Cases' description}
+\subsubsection{Turn on/Turn off}
+\textbf{Use case name} : Turn on/Turn off\\
+\textbf{Summary} : Allows the user to turn the cassette deck on or off.\\
+\textbf{Actors} : User.\\
+\textbf{Assumptions} :Cassette deck has access to a power source.\\
+\textbf{Preconditions} : Cassette holder is closed\\
+\textbf{Basic course of action :}\\
+1. User presses power button on.\\
+2. Cassette deck is powered on.\\
+\textbf{Postconditions} : Same as preconditions.\\
+\textbf{Alternate courses :}\\
+2a : Cassette deck is powered off.\\
+
+
+\pagebreak
+\section{Class diagram}
+\vspace{10px}
+\begin{center}
+%\includegraphics[width=15cm]{./img/class_diagram.jpg}\\
+\end{center}
+DESCRIPTION HERE.
+
+\pagebreak
+\section{Object diagram}
+\vspace{10px}
+\begin{center}
+%\includegraphics[width=15cm]{./img/class_diagram.jpg}\\
+\end{center}
+DESCRIPTION HERE.
+
+\pagebreak
+\section{State diagrams}
+INTRODUCTION HERE
+\subsection{Diagram 1}
+\vspace{10px}
+\begin{center}
+%\includegraphics[width=15cm]{./img/statechart_diagram1.png}\\
+\end{center}
+DESCRIPTION HERE.
+
+\subsection{Diagram 2}
+\vspace{10px}
+\begin{center}
+%\includegraphics[width=15cm]{./img/statechart_diagram2.png}\\
+\end{center}
+DESCRIPTION HERE.
+
+\subsection{Diagram 3}
+\vspace{10px}
+\begin{center}
+%\includegraphics[width=15cm]{./img/statechart_diagram3.png}\\
+\end{center}
+DESCRIPTION HERE.
+
+\pagebreak
+\section{Sequence diagrams}
+INTRODUCTION HERE.
+\subsection{Diagram 1}
+\vspace{10px}
+\begin{center}
+%\includegraphics[width=15cm]{./img/musicPlayer(SD).jpg}\\
+\end{center}
+DESCRIPTION HERE.
+\subsection{Diagram 2}
+\vspace{10px}
+\begin{center}
+%\includegraphics[width=15cm]{./img/musicRecorder(SD).jpg}\\
+\end{center}
+DESCRIPTION HERE.
+
+\pagebreak
+\section{Activity diagram}
+\vspace{10px}
+\begin{center}
+%\includegraphics[width=15cm]{./img/activityDiagram_final.jpg}\\
+\end{center}
+DESCRIPTION HERE.
+
+
+\pagebreak
+If need be, a link to the git repository used for this project:\\
+\url{https://github.com/Virtuosek/Radio}
+
+\end{document}

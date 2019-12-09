@@ -7,7 +7,7 @@ Git:
 ----
 https://github.com/Virtuosek/Radio.git
 
-q
+
 Google docs:
 ------------
 https://docs.google.com/document/d/1IlFZ9cyDMRNGvmmyHAxV_dq63PhsknW958gYI2voTtk/edit

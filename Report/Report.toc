@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Use case diagram}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Diagram}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Cases' description}{1}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Turn on/Turn off}{1}{subsubsection.1.2.1}%
+\contentsline {section}{\numberline {2}Class diagram}{2}{section.2}%
+\contentsline {section}{\numberline {3}Object diagram}{3}{section.3}%
+\contentsline {section}{\numberline {4}State diagrams}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Diagram 1}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Diagram 2}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Diagram 3}{4}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Sequence diagrams}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Diagram 1}{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Diagram 2}{5}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Activity diagram}{6}{section.6}%
