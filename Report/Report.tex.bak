@@ -99,9 +99,9 @@ Academic year 2019-2020
 2. Radio plays radio station according to frequency\\
 \textbf{Alternate courses: }\\
 1a. User clicks one of the preset buttons\\
-\hspace*{10mm}1a1. No station is saved into the pressed preset\\
-1b. Signal received is not good enough\\
-1c. Preset button is damaged, the radio doesn't play
+1a{\tiny 1}. No station is saved into the pressed preset\\
+1a{\tiny 2}. Signal received is not good enough\\
+1a{\tiny 3}. Preset button is damaged, the radio doesn't play
 \begin{center}--------\end{center}
 
 \subsubsection{Use navigation controls}
@@ -136,13 +136,10 @@ Academic year 2019-2020
 \textbf{Assumptions:} Same as parent\\
 \textbf{Preconditions:} Radio station is playing\\
 \textbf{Basic course of action:}\\
-1. User clicks on a preset button\\
-2. Radio saves the currently playing station to the selected preset\\
+1. User clicks on a preset button
+2. Radio saves the currently playing station to the selected preset
 \textbf{Alternate courses:}\\
-1a. The selected preset already has a saved station\\
-\hspace*{10mm}1a1. The radio overrides the old station with the new on\\
-1b. The selected preset is damaged, the station is not saved\\
-1c. No free presets are available
+1a. The selected preset already has 
 \begin{center}--------\end{center}
 
 \pagebreak

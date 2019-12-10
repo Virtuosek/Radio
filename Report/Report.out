@@ -1,14 +1,20 @@
 \BOOKMARK [1][-]{section.1}{Use case diagram}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{Diagram}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Cases' description}{section.1}% 3
-\BOOKMARK [3][-]{subsubsection.1.2.1}{Turn on/Turn off}{subsection.1.2}% 4
-\BOOKMARK [1][-]{section.2}{Class diagram}{}% 5
-\BOOKMARK [1][-]{section.3}{Object diagram}{}% 6
-\BOOKMARK [1][-]{section.4}{State diagrams}{}% 7
-\BOOKMARK [2][-]{subsection.4.1}{Diagram 1}{section.4}% 8
-\BOOKMARK [2][-]{subsection.4.2}{Diagram 2}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.3}{Diagram 3}{section.4}% 10
-\BOOKMARK [1][-]{section.5}{Sequence diagrams}{}% 11
-\BOOKMARK [2][-]{subsection.5.1}{Diagram 1}{section.5}% 12
-\BOOKMARK [2][-]{subsection.5.2}{Diagram 2}{section.5}% 13
-\BOOKMARK [1][-]{section.6}{Activity diagram}{}% 14
+\BOOKMARK [2][-]{subsection.1.2}{Use cases' description}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Turn on/off}{subsection.1.2}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Use primary dashboard}{subsection.1.2}% 5
+\BOOKMARK [3][-]{subsubsection.1.2.3}{Turn volume up/down}{subsection.1.2}% 6
+\BOOKMARK [3][-]{subsubsection.1.2.4}{Select radio station}{subsection.1.2}% 7
+\BOOKMARK [3][-]{subsubsection.1.2.5}{Use navigation controls}{subsection.1.2}% 8
+\BOOKMARK [3][-]{subsubsection.1.2.6}{Change date and time}{subsection.1.2}% 9
+\BOOKMARK [3][-]{subsubsection.1.2.7}{Save radio station to preset}{subsection.1.2}% 10
+\BOOKMARK [1][-]{section.2}{Class diagram}{}% 11
+\BOOKMARK [1][-]{section.3}{Object diagram}{}% 12
+\BOOKMARK [1][-]{section.4}{State diagrams}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Diagram 1}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Diagram 2}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.3}{Diagram 3}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Sequence diagrams}{}% 17
+\BOOKMARK [2][-]{subsection.5.1}{Diagram 1}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Diagram 2}{section.5}% 19
+\BOOKMARK [1][-]{section.6}{Activity diagram}{}% 20
