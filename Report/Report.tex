@@ -52,36 +52,36 @@ Academic year 2019-2020
 
 \subsection{Use cases' description}
 \subsubsection{Turn on/off}
-\textbf{Use case name} : Turn on/off\\
-\textbf{Summary} : Allows the user to turn the radio on or off.\\
-\textbf{Actors} : User.\\
-\textbf{Assumptions} : Radio has access to a power source.\\
-\textbf{Preconditions} : Radio is plugged in.\\
-\textbf{Basic course of action :}\\
+\textbf{Use case name:} Turn on/off\\
+\textbf{Summary:} Allows the user to turn the radio on or off.\\
+\textbf{Actors:} User.\\
+\textbf{Assumptions:} Radio has access to a power source.\\
+\textbf{Preconditions:} Radio is plugged in.\\
+\textbf{Basic course of action:}\\
 1. User presses power button on.\\
 2. Radio is powered on.\\
-\textbf{Postconditions} : The power button is functional.\\
+\textbf{Postconditions: }The power button is functional.\\
 \textbf{Alternate courses :}\\
-2a : Radio is powered off.\\
+2a : Radio is powered off.
 \begin{center}--------\end{center}
 
 \subsubsection{Use primary dashboard}
-\textbf{Use case name} : Use primary dashboard\\
-\textbf{Summary} : An abstract use case that allows the user to use the primary radio functionalities. Every specialization of this use case shares its actors, assumptions, preconditions and postconditions.\\
-\textbf{Actors} : User.\\
-\textbf{Assumptions} : Radio is plugged in.\\
-\textbf{Preconditions} : Radio is powered on.\\
-\textbf{Basic course of action :}\\
+\textbf{Use case name}: Use primary dashboard\\
+\textbf{Summary}: An abstract use case that allows the user to use the primary radio functionalities. Every specialization of this use case inherits its actors, assumptions, preconditions and postconditions.\\
+\textbf{Actors}: User.\\
+\textbf{Assumptions}: Radio is plugged in.\\
+\textbf{Preconditions}: Radio is powered on.\\
+\textbf{Basic course of action:}\\
 1. User chooses to use one of the available functionalitites.
 \begin{center}--------\end{center}
 
 \subsubsection{Turn volume up/down}
-\textbf{Use case name} : Turn volume up/down\\
-\textbf{Summary} : Allows the user to turn the radio's volume up or down.\\
-\textbf{Actors} : User.\\
-\textbf{Assumptions} : Same as parent.\\
-\textbf{Preconditions} : Radio is powered on.\\
-\textbf{Basic course of action :}\\
+\textbf{Use case name}: Turn volume up/down\\
+\textbf{Summary}: Allows the user to turn the radio's volume up or down.\\
+\textbf{Actors}: User.\\
+\textbf{Assumptions}  Same as parent.\\
+\textbf{Preconditions}: Radio is powered on.\\
+\textbf{Basic course of action:}\\
 1. User turns the know left or right to adjust the volume.\\
 2. Radio changes the volume accordingly.\\
 \textbf{Alternate courses: }\\
@@ -89,12 +89,12 @@ Academic year 2019-2020
 \begin{center}--------\end{center}
 
 \subsubsection{Select radio station}
-\textbf{Use case name} : Select radio station\\
-\textbf{Summary} : Allows the user to select a radio station using a knob\\
-\textbf{Actors} : User\\
-\textbf{Assumptions} : Same as parent\\
-\textbf{Preconditions} : Radio is powered on\\
-\textbf{Basic course of action :}\\
+\textbf{Use case name}: Select radio station\\
+\textbf{Summary}: Allows the user to select a radio station using a knob\\
+\textbf{Actors}: User\\
+\textbf{Assumptions}: Same as parent\\
+\textbf{Preconditions}: Radio is powered on\\
+\textbf{Basic course of action:}\\
 1. User turns knob until signal is good enough to produce sound\\
 2. Radio plays radio station according to frequency\\
 \textbf{Alternate courses: }\\
@@ -105,7 +105,7 @@ Academic year 2019-2020
 \begin{center}--------\end{center}
 
 \subsubsection{Use navigation controls}
-\textbf{Use case name} : Use navigation controls\\
+\textbf{Use case name}: Use navigation controls\\
 \textbf{Summary:} Allows the user to change the display's content depending on its size.\\
 \textbf{Actors:} User\\
 \textbf{Assumptions:} Same as parent\\
@@ -118,12 +118,12 @@ Academic year 2019-2020
 \begin{center}--------\end{center}
 
 \subsubsection{Change date and time}
-\textbf{Use case name} : Change date and time\\
-\textbf{Summary} : Allows the user to change the date and time of the radio\\
-\textbf{Actors} : User\\
-\textbf{Assumptions} : Same as parent\\
-\textbf{Preconditions} : Radio is turned on\\
-\textbf{Basic course of action :}\\
+\textbf{Use case name}: Change date and time\\
+\textbf{Summary}: Allows the user to change the date and time of the radio\\
+\textbf{Actors}: User\\
+\textbf{Assumptions}: Same as parent\\
+\textbf{Preconditions}: Radio is turned on\\
+\textbf{Basic course of action:}\\
 1. User changes date and time using navigation controls (see use case: navigation controls)
 \textbf{Alternate courses: }\\
 1a. Navigation controls are damaged, the user is unable to change the date and time.
@@ -143,6 +143,172 @@ Academic year 2019-2020
 \hspace*{10mm}1a1. The radio overrides the old station with the new on\\
 1b. The selected preset is damaged, the station is not saved\\
 1c. No free presets are available
+\begin{center}--------\end{center}
+
+\subsubsection{Use secondary dashboard}
+\textbf{Use case name}: Use secondary dashboard\\
+\textbf{Summary}: An abstract use case that allows the user to use the secondary (optional) radio functionalities. Every specialization of this use case inherits its actors, assumptions, preconditions and postconditions.\\
+\textbf{Actors}: User.\\
+\textbf{Assumptions}: Radio is plugged in.\\
+\textbf{Preconditions}: Radio is powered on.\\
+\textbf{Basic course of action:}\\
+1. User chooses to use one of the available functionalitites.
+\begin{center}--------\end{center}
+
+\subsubsection{Use external audio input}
+\textbf{Use case name:} Use external audio input\\
+\textbf{Summary:} Allows the user to plug in an external audio input allowing the radio to receive sound from an external device.\\
+\textbf{Actors:} User\\
+\textbf{Assumptions:} Same as parent\\
+\textbf{Preconditions:} External audio input functionality present\\
+\textbf{Basic course of action:}\\
+1. User establishes connection (USB, audio jack or bluetooth, ...) with the radio\\
+2. Radio detects the external audio input\\
+3. Radio starts playing audio from external device\\
+\textbf{Alternate courses:}\\
+1a. User's device is damaged, unable to establish connection\\
+2a. External audio input connector is damaged, the radio is unable to detect the device.\\
+3a. External device has no audio stored within, the radio doesn't play any sound.\\
+\begin{center}--------\end{center}
+
+\subsubsection{Use external audio output}
+\textbf{Use case name:} Use external audio output\\
+\textbf{Summary:} Allows the user to plug in an external audio output allowing the radio to redirect the sound to external speakers\\
+\textbf{Actors:} User\\
+\textbf{Assumptions:} Same as parent\\
+\textbf{Preconditions:} External audio output functionality present\\
+\textbf{Basic course of action:}\\
+1. User establishes connection (audio jack or bluetooth) with the radio\\
+2. Radio detects the external audio output\\
+3. Audio is played in the external device from the radio\\
+\textbf{Alternate courses:}\\
+1a. User's device is damaged, unable to establish connection\\
+2a. External audio output connector is damaged, the radio is unable to detect the device.\\
+3a. External device is damaged, unable to play audio from the radio\\
+\begin{center}--------\end{center}
+
+\subsubsection{Adjust stereo balance}
+\textbf{Use case name:} Use external audio output\\
+\textbf{Summary:} Allows the user adjust stereo balance by turning a knob which controls the output volume between the left and right\\
+speaker\\
+\textbf{Actors:} User\\
+\textbf{Assumptions:} Same as parent\\
+\textbf{Preconditions:} Radio has two built-in speakers\\
+\textbf{Basic course of action:}\\
+1. User turns the knob left or right\\
+2. Radio adjusts the stereo balance accordingly\\
+\textbf{Alternate courses:}\\
+2a. Stereo balance knob is damaged, no audio change will result
+\begin{center}--------\end{center}
+
+\subsubsection{Activate/deactivate breaking news feed}
+\textbf{Use case name:} Activate/deactivate breaking news feed\\
+\textbf{Summary:} Allows the user to enable or disable current station's breaking news display\\
+\textbf{Actors:} User\\
+\textbf{Assumptions:} Same as parent\\
+\textbf{Preconditions:} Breaking news functionality available\\
+\textbf{Basic course of action:}\\
+1. User enables/disables breaking news functionality\\
+2. Radio stations is playing and sudden breaking news are received\\
+3. Radio displays breaking news if the user has set it to do so\\
+\textbf{Alternate courses:}\\
+2a. No breaking news are received\\
+3a. Breaking news functionality encounters an issues, thus the information is not received\\
+3b. Breaking news functionality encounters an issues, thus the information is not displayed
+\begin{center}--------\end{center}
+
+\subsubsection{Switch between DAB+ and FM}
+\textbf{Use case name:} Use external audio output\\
+\textbf{Summary:} Allows the user to switch between DAB+ and FM radio standards\\
+\textbf{Actors:} User\\
+\textbf{Assumptions:} Same as parent\\
+\textbf{Preconditions:} Radio has analog FM support\\
+\textbf{Basic course of action:}\\
+1. User switches betweens DAB+ and FM standards using a switch\\
+2. Radio switches to the selected standard\\
+\textbf{Alternate courses:}\\
+1a. The switch is damaged, the user is stuck with the default (or last used) standard
+\begin{center}--------\end{center}
+
+\subsubsection{Autotune radio station}
+\textbf{Use case name:} Autotune radio station\\
+\textbf{Summary:} Allows the user to use autotune functionality which will automatically search
+for all available radio stations and will store them in its internal memory in the order they were found  until all memory locations are filled or until no more radio stations are found\\
+\textbf{Actors:} User\\
+\textbf{Assumptions:} Same as parent\\
+\textbf{Preconditions:} Radio has autotune functionality\\
+\textbf{Basic course of action:}\\
+1. User activate autotune functionality using a button\\
+2. Radio scans for all the stations available with good quality\\
+3. Radio stores the fetched stations into its internal memory\\
+\textbf{Alternate courses:}\\
+1a. Autotune button is damaged, the functionality is unavailable\\
+2a. No stations with good enough quality is found\\
+2b. Radio's search functionality is damaged, it is unable to search for any station\\
+3a. Radio's internal memory is damaged, no stations are stored
+\begin{center}--------\end{center}
+
+\subsubsection{Activate/deactivate alarm}
+\textbf{Use case name:} Activate/deactivate alarm\\
+\textbf{Summary:} Allows the user to set, activate and deactivate the alarm functionality\\
+\textbf{Actors:} User\\
+\textbf{Assumptions:} Same as parent\\
+\textbf{Preconditions:} Radio has alarm functionality\\
+\textbf{Basic course of action:}\\
+1. User sets alarm time\\
+2. User activate the alarm\\
+3. Alarm rings at the programmed time, when the radio is on\\
+4. User deactivates the alarm\\
+\textbf{Alternate courses:}\\
+1a. Alarm functionality is damaged, the user cannot set, activate or deactivate it\\
+2a. Same as '1a'\\
+3a. Radio turns on at the programmed time, when the radio is idle\\
+\hspace*{10mm}3a1. Last selected radio station starts playing\\
+\hspace*{10mm}3a2. Normal alarm sound
+\begin{center}--------\end{center}
+
+\subsubsection{Broadcast radio feed}
+\textbf{Use case name:} Broadcast radio feed\\
+\textbf{Summary:} Allows the radio channel to broadcast its radio feed\\
+\textbf{Actors:} Radio channel\\
+\textbf{Preconditions:} Radio channel is active\\
+\textbf{Basic course of action:}\\
+1. Radio channel broadcasts its feed via a certain frequency\\
+2. All radios tuning into said frequency receive the radio broadcast\\
+\textbf{Alternate courses:}\\
+1a. The chosen frequency is unavailable (already reserved by another radio station, ...)\\
+2b. The signal is weak, few to no radios receive the signal
+\begin{center}--------\end{center}
+
+\subsubsection{Add/remove optional features}
+\textbf{Use case name:} Add/remove optional features\\
+\textbf{Summary:} Radio constructor adds or removes radio optional features\\
+\textbf{Actors:} Constructor\\
+\textbf{Preconditions:} Current radio version has not been abandoned\\
+\textbf{Basic course of action:}\\
+1. Constructor adds/removes one or more optional features\\
+2. Constructor test the change and verifies radio integrity\\
+3. New radio version is commercialized\\
+\textbf{Alternate courses:}\\
+2a. No testing is done, resulting in issue within the radio\\
+3a. Radio has flaws and is then submitted to testing (2.)
+\begin{center}--------\end{center}
+
+\subsubsection{Update existing features}
+\textbf{Use case name:} Update existing features\\
+\textbf{Summary:} Radio constructor updates radio firmware which in return updates functionalities.\\
+\textbf{Actors:} Constructor\\
+\textbf{Preconditions:} Current radio version has not been abandoned\\
+\textbf{Basic course of action:}\\
+1. Constructor updates firmware\\
+2. One or more features are updated\\
+3. Constructor test the change and verifies radio integrity\\
+4. New radio update is uploaded\\
+5. Radio automatically updates to the latest firmware\\
+\textbf{Alternate courses:}\\
+2a. No features have been updated (beta testing, improved other aspects, ...)
+3a. No testing is done, resulting in issue within the radio\\
+3b. Radio has flaws and is then submitted to testing (3.)\\
 \begin{center}--------\end{center}
 
 \pagebreak

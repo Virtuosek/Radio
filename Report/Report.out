@@ -8,13 +8,24 @@
 \BOOKMARK [3][-]{subsubsection.1.2.5}{Use navigation controls}{subsection.1.2}% 8
 \BOOKMARK [3][-]{subsubsection.1.2.6}{Change date and time}{subsection.1.2}% 9
 \BOOKMARK [3][-]{subsubsection.1.2.7}{Save radio station to preset}{subsection.1.2}% 10
-\BOOKMARK [1][-]{section.2}{Class diagram}{}% 11
-\BOOKMARK [1][-]{section.3}{Object diagram}{}% 12
-\BOOKMARK [1][-]{section.4}{State diagrams}{}% 13
-\BOOKMARK [2][-]{subsection.4.1}{Diagram 1}{section.4}% 14
-\BOOKMARK [2][-]{subsection.4.2}{Diagram 2}{section.4}% 15
-\BOOKMARK [2][-]{subsection.4.3}{Diagram 3}{section.4}% 16
-\BOOKMARK [1][-]{section.5}{Sequence diagrams}{}% 17
-\BOOKMARK [2][-]{subsection.5.1}{Diagram 1}{section.5}% 18
-\BOOKMARK [2][-]{subsection.5.2}{Diagram 2}{section.5}% 19
-\BOOKMARK [1][-]{section.6}{Activity diagram}{}% 20
+\BOOKMARK [3][-]{subsubsection.1.2.8}{Use secondary dashboard}{subsection.1.2}% 11
+\BOOKMARK [3][-]{subsubsection.1.2.9}{Use external audio input}{subsection.1.2}% 12
+\BOOKMARK [3][-]{subsubsection.1.2.10}{Use external audio output}{subsection.1.2}% 13
+\BOOKMARK [3][-]{subsubsection.1.2.11}{Adjust stereo balance}{subsection.1.2}% 14
+\BOOKMARK [3][-]{subsubsection.1.2.12}{Activate/deactivate breaking news feed}{subsection.1.2}% 15
+\BOOKMARK [3][-]{subsubsection.1.2.13}{Switch between DAB+ and FM}{subsection.1.2}% 16
+\BOOKMARK [3][-]{subsubsection.1.2.14}{Autotune radio station}{subsection.1.2}% 17
+\BOOKMARK [3][-]{subsubsection.1.2.15}{Activate/deactivate alarm}{subsection.1.2}% 18
+\BOOKMARK [3][-]{subsubsection.1.2.16}{Broadcast radio feed}{subsection.1.2}% 19
+\BOOKMARK [3][-]{subsubsection.1.2.17}{Add/remove optional features}{subsection.1.2}% 20
+\BOOKMARK [3][-]{subsubsection.1.2.18}{Update existing features}{subsection.1.2}% 21
+\BOOKMARK [1][-]{section.2}{Class diagram}{}% 22
+\BOOKMARK [1][-]{section.3}{Object diagram}{}% 23
+\BOOKMARK [1][-]{section.4}{State diagrams}{}% 24
+\BOOKMARK [2][-]{subsection.4.1}{Diagram 1}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.2}{Diagram 2}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.3}{Diagram 3}{section.4}% 27
+\BOOKMARK [1][-]{section.5}{Sequence diagrams}{}% 28
+\BOOKMARK [2][-]{subsection.5.1}{Diagram 1}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.2}{Diagram 2}{section.5}% 30
+\BOOKMARK [1][-]{section.6}{Activity diagram}{}% 31
