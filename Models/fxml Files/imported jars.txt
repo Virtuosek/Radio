@@ -1,2 +1,3 @@
 ControlsFX
 JFoenix
+de.jensd:fontawesomefx-fontawesome

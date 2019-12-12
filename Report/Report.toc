@@ -3,22 +3,22 @@
 \contentsline {subsection}{\numberline {1.2}Use cases' description}{1}{subsection.1.2}%
 \contentsline {subsubsection}{\numberline {1.2.1}Turn on/off}{1}{subsubsection.1.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.2}Use primary dashboard}{2}{subsubsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}Turn volume up/down}{2}{subsubsection.1.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.4}Select radio station}{2}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.3}Select radio station}{2}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Turn volume up/down}{3}{subsubsection.1.2.4}%
 \contentsline {subsubsection}{\numberline {1.2.5}Use navigation controls}{3}{subsubsection.1.2.5}%
-\contentsline {subsubsection}{\numberline {1.2.6}Change date and time}{3}{subsubsection.1.2.6}%
+\contentsline {subsubsection}{\numberline {1.2.6}Change date and time}{4}{subsubsection.1.2.6}%
 \contentsline {subsubsection}{\numberline {1.2.7}Save radio station to preset}{4}{subsubsection.1.2.7}%
-\contentsline {subsubsection}{\numberline {1.2.8}Use secondary dashboard}{4}{subsubsection.1.2.8}%
-\contentsline {subsubsection}{\numberline {1.2.9}Use external audio input}{5}{subsubsection.1.2.9}%
-\contentsline {subsubsection}{\numberline {1.2.10}Use external audio output}{5}{subsubsection.1.2.10}%
-\contentsline {subsubsection}{\numberline {1.2.11}Adjust stereo balance}{6}{subsubsection.1.2.11}%
-\contentsline {subsubsection}{\numberline {1.2.12}Activate/deactivate breaking news feed}{6}{subsubsection.1.2.12}%
-\contentsline {subsubsection}{\numberline {1.2.13}Switch between DAB+ and FM}{7}{subsubsection.1.2.13}%
-\contentsline {subsubsection}{\numberline {1.2.14}Autotune radio station}{7}{subsubsection.1.2.14}%
-\contentsline {subsubsection}{\numberline {1.2.15}Activate/deactivate alarm}{8}{subsubsection.1.2.15}%
+\contentsline {subsubsection}{\numberline {1.2.8}Use secondary dashboard}{5}{subsubsection.1.2.8}%
+\contentsline {subsubsection}{\numberline {1.2.9}Autotune radio station}{5}{subsubsection.1.2.9}%
+\contentsline {subsubsection}{\numberline {1.2.10}Adjust stereo balance}{6}{subsubsection.1.2.10}%
+\contentsline {subsubsection}{\numberline {1.2.11}Use external audio input}{6}{subsubsection.1.2.11}%
+\contentsline {subsubsection}{\numberline {1.2.12}Use external audio output}{7}{subsubsection.1.2.12}%
+\contentsline {subsubsection}{\numberline {1.2.13}Activate/deactivate alarm}{7}{subsubsection.1.2.13}%
+\contentsline {subsubsection}{\numberline {1.2.14}Activate/deactivate breaking news feed}{8}{subsubsection.1.2.14}%
+\contentsline {subsubsection}{\numberline {1.2.15}Switch between DAB+ and FM}{8}{subsubsection.1.2.15}%
 \contentsline {subsubsection}{\numberline {1.2.16}Broadcast radio feed}{9}{subsubsection.1.2.16}%
 \contentsline {subsubsection}{\numberline {1.2.17}Add/remove optional features}{9}{subsubsection.1.2.17}%
-\contentsline {subsubsection}{\numberline {1.2.18}Update existing features}{9}{subsubsection.1.2.18}%
+\contentsline {subsubsection}{\numberline {1.2.18}Update existing features}{10}{subsubsection.1.2.18}%
 \contentsline {section}{\numberline {2}Class diagram}{11}{section.2}%
 \contentsline {section}{\numberline {3}Object diagram}{12}{section.3}%
 \contentsline {section}{\numberline {4}State diagrams}{13}{section.4}%
