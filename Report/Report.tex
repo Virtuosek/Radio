@@ -47,10 +47,17 @@ Academic year 2019-2020
 \subsection{Diagram}
 \vspace{10px}
 \begin{center}
-\includegraphics[width=15cm]{../Diagrams/useCase-v3.jpg}\\
+\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
 \end{center}
 
-\subsection{Use cases' description}
+\subsection{Diagram description}
+The use case diagram for this project (radio simulation) has been made with the idea of two separate functionality categories:\\
+Primary: the functionalitites that are present in each and every radio.\\
+Secondary: the optional features that the manufacutrer (in this case the radio configurator\footnote{See Models' report}) chooses to add to the radio.
+In the diagram, we notice these two categories in from of two abstract use cases named "Use primary dashboard" and "Use secondary dashboard". There are also four separate use cases; "Turn on/off" which will allow the user to manually turn the radio on and off, "Broadcast radio feed" by the radio stations, "Add/remove optional feature" and "Update existing features" by the radio constructor.\\
+It is noteworthy that the use case "Use navigation controls" allows the user not only to choose what the radio's screen displays but also configure two use cases which are: "Change date and time" and "Activate/deactivate alarm", for the latter it is for the purpose of setting the time of the alarm, the activation/deactivation is done by another button.
+
+\subsection{Individual use cases' description}
 \subsubsection{Turn on/off}
 \textbf{Use case name:} Turn on/off\\
 \textbf{Summary:} Allows the user to turn the radio on or off.\\
@@ -320,7 +327,7 @@ for all available radio stations and will store them in its internal memory in t
 \section{Class diagram}
 \vspace{10px}
 \begin{center}
-%\includegraphics[width=15cm]{./img/class_diagram.jpg}\\
+%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
 \end{center}
 DESCRIPTION HERE.
 
@@ -328,7 +335,7 @@ DESCRIPTION HERE.
 \section{Object diagram}
 \vspace{10px}
 \begin{center}
-%\includegraphics[width=15cm]{./img/class_diagram.jpg}\\
+%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
 \end{center}
 DESCRIPTION HERE.
 
@@ -338,21 +345,21 @@ INTRODUCTION HERE
 \subsection{Diagram 1}
 \vspace{10px}
 \begin{center}
-%\includegraphics[width=15cm]{./img/statechart_diagram1.png}\\
+%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
 \end{center}
 DESCRIPTION HERE.
 
 \subsection{Diagram 2}
 \vspace{10px}
 \begin{center}
-%\includegraphics[width=15cm]{./img/statechart_diagram2.png}\\
+%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
 \end{center}
 DESCRIPTION HERE.
 
 \subsection{Diagram 3}
 \vspace{10px}
 \begin{center}
-%\includegraphics[width=15cm]{./img/statechart_diagram3.png}\\
+%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
 \end{center}
 DESCRIPTION HERE.
 
@@ -362,13 +369,13 @@ INTRODUCTION HERE.
 \subsection{Diagram 1}
 \vspace{10px}
 \begin{center}
-%\includegraphics[width=15cm]{./img/musicPlayer(SD).jpg}\\
+%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
 \end{center}
 DESCRIPTION HERE.
 \subsection{Diagram 2}
 \vspace{10px}
 \begin{center}
-%\includegraphics[width=15cm]{./img/musicRecorder(SD).jpg}\\
+%\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
 \end{center}
 DESCRIPTION HERE.
 
@@ -376,13 +383,30 @@ DESCRIPTION HERE.
 \section{Activity diagram}
 \vspace{10px}
 \begin{center}
-%\includegraphics[width=15cm]{./img/activityDiagram_final.jpg}\\
+%\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
 \end{center}
 DESCRIPTION HERE.
 
+\pagebreak
+\section{Interaction Overview diagram}
+\vspace{10px}
+\begin{center}
+\includegraphics[width=15cm]{../Diagrams/InteractionOverview-v2.jpg}\\
+\end{center}
+In this interaction overview diagram, we specify the steps taken by the user when manipulating the radio. Please note that there aren't as many sequence diagrams as referenced in each interaction. If done so, most of the sequence diagrams would have been uninterestingly similar and repetitive.\\
+The steps taken by the user are as follows:
+\begin{enumerate}
+\item The user turn the radio on
+\item They choose to use either the primary or secondary dashboard (or turn the radio off)
+\item Which leads them to choose on of the available functionalities in each category
+\item Once the action is performed, the user can once again choose between the two categories
+\item The user can also turn the radio off
+\end{enumerate}
 
 \pagebreak
+Please note that every diagram present in this report will be available for viewing in the "Diagrams" folder .\\
 If need be, a link to the git repository used for this project:\\
 \url{https://github.com/Virtuosek/Radio}
+
 
 \end{document}

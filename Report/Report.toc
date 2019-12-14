@@ -1,31 +1,33 @@
-\contentsline {section}{\numberline {1}Use case diagram}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Diagram}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Use cases' description}{1}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}Turn on/off}{1}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Use primary dashboard}{2}{subsubsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}Select radio station}{2}{subsubsection.1.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.4}Turn volume up/down}{3}{subsubsection.1.2.4}%
-\contentsline {subsubsection}{\numberline {1.2.5}Use navigation controls}{3}{subsubsection.1.2.5}%
-\contentsline {subsubsection}{\numberline {1.2.6}Change date and time}{4}{subsubsection.1.2.6}%
-\contentsline {subsubsection}{\numberline {1.2.7}Save radio station to preset}{4}{subsubsection.1.2.7}%
-\contentsline {subsubsection}{\numberline {1.2.8}Use secondary dashboard}{5}{subsubsection.1.2.8}%
-\contentsline {subsubsection}{\numberline {1.2.9}Autotune radio station}{5}{subsubsection.1.2.9}%
-\contentsline {subsubsection}{\numberline {1.2.10}Adjust stereo balance}{6}{subsubsection.1.2.10}%
-\contentsline {subsubsection}{\numberline {1.2.11}Use external audio input}{6}{subsubsection.1.2.11}%
-\contentsline {subsubsection}{\numberline {1.2.12}Use external audio output}{7}{subsubsection.1.2.12}%
-\contentsline {subsubsection}{\numberline {1.2.13}Activate/deactivate alarm}{7}{subsubsection.1.2.13}%
-\contentsline {subsubsection}{\numberline {1.2.14}Activate/deactivate breaking news feed}{8}{subsubsection.1.2.14}%
-\contentsline {subsubsection}{\numberline {1.2.15}Switch between DAB+ and FM}{8}{subsubsection.1.2.15}%
-\contentsline {subsubsection}{\numberline {1.2.16}Broadcast radio feed}{9}{subsubsection.1.2.16}%
-\contentsline {subsubsection}{\numberline {1.2.17}Add/remove optional features}{9}{subsubsection.1.2.17}%
-\contentsline {subsubsection}{\numberline {1.2.18}Update existing features}{10}{subsubsection.1.2.18}%
-\contentsline {section}{\numberline {2}Class diagram}{11}{section.2}%
-\contentsline {section}{\numberline {3}Object diagram}{12}{section.3}%
-\contentsline {section}{\numberline {4}State diagrams}{13}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Diagram 1}{13}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Diagram 2}{13}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Diagram 3}{13}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Sequence diagrams}{14}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Diagram 1}{14}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Diagram 2}{14}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Activity diagram}{15}{section.6}%
+\contentsline {section}{\numberline {1}Use case diagram}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Diagram}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Diagram description}{1}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Individual use cases' description}{2}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Turn on/off}{2}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}Use primary dashboard}{2}{subsubsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}Select radio station}{3}{subsubsection.1.3.3}
+\contentsline {subsubsection}{\numberline {1.3.4}Turn volume up/down}{3}{subsubsection.1.3.4}
+\contentsline {subsubsection}{\numberline {1.3.5}Use navigation controls}{4}{subsubsection.1.3.5}
+\contentsline {subsubsection}{\numberline {1.3.6}Change date and time}{4}{subsubsection.1.3.6}
+\contentsline {subsubsection}{\numberline {1.3.7}Save radio station to preset}{5}{subsubsection.1.3.7}
+\contentsline {subsubsection}{\numberline {1.3.8}Use secondary dashboard}{5}{subsubsection.1.3.8}
+\contentsline {subsubsection}{\numberline {1.3.9}Autotune radio station}{6}{subsubsection.1.3.9}
+\contentsline {subsubsection}{\numberline {1.3.10}Adjust stereo balance}{6}{subsubsection.1.3.10}
+\contentsline {subsubsection}{\numberline {1.3.11}Use external audio input}{7}{subsubsection.1.3.11}
+\contentsline {subsubsection}{\numberline {1.3.12}Use external audio output}{7}{subsubsection.1.3.12}
+\contentsline {subsubsection}{\numberline {1.3.13}Activate/deactivate alarm}{8}{subsubsection.1.3.13}
+\contentsline {subsubsection}{\numberline {1.3.14}Activate/deactivate breaking news feed}{9}{subsubsection.1.3.14}
+\contentsline {subsubsection}{\numberline {1.3.15}Switch between DAB+ and FM}{9}{subsubsection.1.3.15}
+\contentsline {subsubsection}{\numberline {1.3.16}Broadcast radio feed}{10}{subsubsection.1.3.16}
+\contentsline {subsubsection}{\numberline {1.3.17}Add/remove optional features}{10}{subsubsection.1.3.17}
+\contentsline {subsubsection}{\numberline {1.3.18}Update existing features}{10}{subsubsection.1.3.18}
+\contentsline {section}{\numberline {2}Class diagram}{12}{section.2}
+\contentsline {section}{\numberline {3}Object diagram}{13}{section.3}
+\contentsline {section}{\numberline {4}State diagrams}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}Diagram 1}{14}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Diagram 2}{14}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Diagram 3}{14}{subsection.4.3}
+\contentsline {section}{\numberline {5}Sequence diagrams}{15}{section.5}
+\contentsline {subsection}{\numberline {5.1}Diagram 1}{15}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Diagram 2}{15}{subsection.5.2}
+\contentsline {section}{\numberline {6}Activity diagram}{16}{section.6}
+\contentsline {section}{\numberline {7}Interaction Overview diagram}{17}{section.7}
