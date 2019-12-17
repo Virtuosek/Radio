@@ -70,7 +70,7 @@ It is noteworthy that the use case "Use navigation controls" allows the user not
 \hspace*{10mm}3. Radio is powered on.\\
 \textbf{Postconditions: }The power button is functional.\\
 \textbf{Alternate courses :}\\
-\hspace*{10mm}1a. Alarm (if set) turns the radio on the programmed time.\\ 
+\hspace*{10mm}1a. Alarm (if set) turns the radio on, on the programmed time.\\ 
 \hspace*{10mm}3a. Radio is powered off.
 \begin{center}--------\end{center}
 
@@ -383,24 +383,36 @@ DESCRIPTION HERE.
 \section{Activity diagram}
 \vspace{10px}
 \begin{center}
-%\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
+\includegraphics[width=15cm]{../Diagrams/Activity-v5.jpg}\\
 \end{center}
-DESCRIPTION HERE.
+While remaining consistent with the concept of two separate dashboards, we created the activity diagram following another -realistic- concept; the user can freely choose between functionalities, which means that the user can, for example, turn the volume up or down before choosing a station. In other words, most of the time, there are no mandatory sequences to follow.\\ In order the achieve this, we use a "hub" activity that will allow the user to switch from one activity to the other. This "hub" activity is  "Display infos on screen", which makes sens since the user has to constantly receive a feedback following their interaction with the radio. Doing so, we are able to start from any of the secondary dashboards and move on to whatever other action the user desires to do.\\
+In order the make the diagram as legible as possible, some arrows (Control flows) are overlapping in a manner that avoids as much as possible any confusion. Take secondary dashboard for example, it is clear that every functionality, except "Adjust stereo balance", once over, is redirected to the "hub" activity.
 
 \pagebreak
 \section{Interaction Overview diagram}
 \vspace{10px}
 \begin{center}
-\includegraphics[width=15cm]{../Diagrams/InteractionOverview-v1.jpg}\\
+\includegraphics[width=15cm]{../Diagrams/InteractionOverview-v2.jpg}\\
 \end{center}
 In this interaction overview diagram, we specify the steps taken by the user when manipulating the radio. Please note that there aren't as many sequence diagrams as referenced in each interaction. If done so, most of the sequence diagrams would have been uninterestingly similar and repetitive.\\
-The steps are straight forward:
-
+The steps taken by the user are as follows:
+\begin{enumerate}
+\item The user turn the radio on
+\item They choose to use either the primary or secondary dashboard (or turn the radio off)
+\item Which leads them to choose on of the available functionalities in each category
+\item Once the action is performed, the user can once again choose between the two categories
+\item The user can also turn the radio off
+\end{enumerate}
 
 \pagebreak
-Please note that every diagram present in this report will be available for viewing in the "Diagrams" folder .\\
-If need be, a link to the git repository used for this project:\\
-\url{https://github.com/Virtuosek/Radio}
-
+\topskip0pt
+\vspace*{\fill}
+\begin{center}
+Please note that every diagram present in this report will be available for viewing in the "Diagrams" folder.\\\vspace{30px}
+If need be, a link to the \textit{Git} repository used for this project:\\
+\url{https://github.com/Virtuosek/Radio}\\
+Since the repository is private, you might get a 404 error if you're not a collaborator, if you wish to be one, please send an email to \href{mailto:karim.essaf@gmail.com}{karim.essaf@gmail.com} with your \textit{Git} username in order to be added as a collaborator\footnote{Be aware that we are only able to use the basic version of \textit{Git}, so only one collaborator can be added.}.
+\end{center}
+\vspace*{\fill}
 
 \end{document}
