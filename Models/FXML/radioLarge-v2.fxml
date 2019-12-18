@@ -103,15 +103,15 @@
                            </graphic></Button>
                         <AnchorPane layoutY="73.0" prefHeight="200.0" prefWidth="430.0" style="-fx-background-color: lightgrey;">
                            <children>
-                              <Label layoutX="347.0" layoutY="6.0" text="17/12/2019">
+                              <Label layoutX="303.0" layoutY="7.0" text="17/12/2019 12:51">
                                  <font>
                                     <Font name="Verdana" size="12.0" />
                                  </font></Label>
-                              <Label layoutX="223.0" layoutY="63.0" text="Radio station name">
+                              <Label layoutX="236.0" layoutY="63.0" text="Radio station name">
                                  <font>
                                     <Font name="Verdana" size="12.0" />
                                  </font></Label>
-                              <Label layoutX="208.0" layoutY="63.0" text="1">
+                              <Label layoutX="221.0" layoutY="63.0" text="1">
                                  <font>
                                     <Font name="Verdana" size="12.0" />
                                  </font></Label>
@@ -124,14 +124,15 @@
                                     <Image url="@../../../../../../Downloads/download%20(2).jpg" />
                                  </image>
                               </ImageView>
-                              <Label layoutX="146.0" layoutY="178.0" text="Eventual breaking news">
+                              <Label layoutX="164.0" layoutY="179.0" text="Breaking news">
                                  <font>
                                     <Font name="Verdana" size="12.0" />
                                  </font></Label>
-                              <Label layoutY="6.0" text="Information relative to user input">
+                              <Label layoutX="6.0" layoutY="7.0" text="Information relative to user input">
                                  <font>
                                     <Font name="Verdana" size="12.0" />
                                  </font></Label>
+                              <Label layoutX="342.0" layoutY="171.0" text="Alarm on 6:00" />
                            </children>
                         </AnchorPane>
                         <Button layoutX="96.0" layoutY="291.0" mnemonicParsing="false" prefWidth="0.0" text="1" />
@@ -148,7 +149,7 @@
             </AnchorPane>
           </content>
         </ScrollPane>
-        <AnchorPane prefHeight="334.0" prefWidth="234.0">
+        <AnchorPane prefHeight="371.0" prefWidth="229.0">
           <children>
             <Label alignment="CENTER" font="$x1" layoutX="76.0" layoutY="14.0" style="&#10;" text="Secondary" textAlignment="CENTER" textFill="$x2" wrapText="false" />
                   <Label layoutX="77.0" layoutY="76.0" text="Stereo balance">
@@ -188,12 +189,13 @@
                      <font>
                         <Font name="Verdana" size="12.0" />
                      </font></Button>
-                  <Button layoutX="94.0" layoutY="270.0" mnemonicParsing="false" text="DAB+" />
+                  <Button layoutX="59.0" layoutY="266.0" mnemonicParsing="false" text="DAB+" />
+                  <Button layoutX="118.0" layoutY="266.0" mnemonicParsing="false" text="Alarm ON" />
           </children>
         </AnchorPane>
       </items>
     </SplitPane>
-    <HBox id="HBox" alignment="CENTER_LEFT" spacing="5.0" VBox.vgrow="NEVER">
+    <HBox id="HBox" alignment="CENTER_LEFT" prefHeight="22.0" prefWidth="894.0" spacing="5.0" VBox.vgrow="NEVER">
       <children>
         <Label maxHeight="1.7976931348623157E308" maxWidth="-1.0" text="LED" textFill="RED" HBox.hgrow="ALWAYS">
           <font>
