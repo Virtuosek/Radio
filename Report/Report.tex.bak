@@ -52,10 +52,10 @@ Academic year 2019-2020
 
 \subsection{Diagram description}
 The use case diagram for this project (radio simulation) has been made with the idea of two separate functionality categories:\\
-Primary: the functionalitites that are present in each and every radio.\\
-Secondary: the optional features that the manufacutrer (in this case the radio configurator\footnote{See Models' report}) chooses to add to the radio.
-In the diagram, we notice these two categories in from of two abstract use cases named "Use primary dashboard" and "Use secondary dashboard". There are also four separate use cases; "Turn on/off" which will allow the user to manually turn the radio on and off, "Broadcast radio feed" by the radio stations, "Add/remove optional feature" and "Update existing features" by the radio constructor.\\
-It is noteworthy that the use case "Use navigation controls" allows the user not only to choose what the radio's screen displays but also configure two use cases which are: "Change date and time" and "Activate/deactivate alarm", for the latter it is for the purpose of setting the time of the alarm, the activation/deactivation is done by another button.
+Primary: the functionalities that are present in each and every radio.\\
+Secondary: the optional features that the manufacturer (in this case the radio configurator\footnote{See Models' report}) chooses to add to the radio.
+In the diagram, we notice these two categories in form of two abstract use cases named "Use primary dashboard" and "Use secondary dashboard". There are also four separate use cases; "Turn on/off" which will allow the user to manually turn the radio on and off, "Broadcast radio feed" by the radio stations, "Add/remove optional features" and "Update existing features" by the radio constructor.\\
+It is noteworthy that the use case "Use navigation controls" allows the user not only to choose what the radio's screen displays but also configures two use cases which are: "Change date and time" and "Activate/deactivate alarm", for the latter it is for the purpose of setting the time of the alarm, the activation/deactivation is done by another button.
 
 \subsection{Individual use cases' description}
 \subsubsection{Turn on/off}
@@ -81,7 +81,7 @@ It is noteworthy that the use case "Use navigation controls" allows the user not
 \textbf{Assumptions}: Radio is plugged in.\\
 \textbf{Preconditions}: Radio is powered on.\\
 \textbf{Basic course of action:}\\
-\hspace*{10mm}1. User chooses to use one of the available functionalitites.
+\hspace*{10mm}1. User chooses to use one of the available functionalities.
 \begin{center}--------\end{center}
 
 \subsubsection{Select radio station}
@@ -164,7 +164,7 @@ It is noteworthy that the use case "Use navigation controls" allows the user not
 \textbf{Assumptions}: Radio is plugged in.\\
 \textbf{Preconditions}: Radio is powered on.\\
 \textbf{Basic course of action:}\\
-\hspace*{10mm}1. User chooses to use one of the available functionalitites.
+\hspace*{10mm}1. User chooses to use one of the available functionalities.
 \begin{center}--------\end{center}
 
 \subsubsection{Autotune radio station}
@@ -324,6 +324,60 @@ for all available radio stations and will store them in its internal memory in t
 \hspace*{10mm}3b. Radio has flaws and is then submitted to testing (back to 3.)\\
 
 \pagebreak
+\section{Activity diagram}
+\vspace{10px}
+\begin{center}
+\includegraphics[width=16.5cm]{../Diagrams/Activity-v5.jpg}\\
+\end{center}
+While remaining consistent with the concept of two separate dashboards, we created the activity diagram following another -realistic- concept; the user can freely choose between functionalities, which means that the user can, for example, turn the volume up or down before choosing a station. In other words, most of the time, there are no mandatory sequences to follow.\\
+In order the achieve this, we use a "hub" activity that will allow the user to switch from one action to the other. This "hub" activity is  "Display infos on screen", which makes sens since the user has to constantly receive feedback following their interaction with the radio. Doing so, we are able to start from any of the two dashboards and move on to whatever other action the user desires to do.\\
+In order the make the diagram as legible as possible, some arrows (Control flows) are overlapping in a manner that avoids confusion as much as possible. Take secondary dashboard for example, it is clear that every functionality, except "Adjust stereo balance", once over, is redirected to the "hub" activity.\\
+Finally, if the user has been inactive for 15 minutes, the radio automatically switches to sleep mode.
+
+\pagebreak
+\section{Interaction Overview diagram}
+\vspace{10px}
+\begin{center}
+\includegraphics[width=16.5cm]{../Diagrams/InteractionOverview-v2.jpg}\\
+\end{center}
+In this interaction overview diagram, we specify the steps taken by the user when manipulating the radio. Please note that there aren't as many sequence diagrams as referenced in each interaction. If done so, most of the sequence diagrams would have been uninterestingly similar and repetitive.\\
+The steps taken by the user are as follows:
+\begin{enumerate}
+\item The user turns the radio on
+\item They choose to use either the primary or secondary dashboard (or turn the radio off)
+\item Which leads them choosing one of the available functionalities in each category
+\item Once the action is performed, the user can once again choose between the two categories
+\item The user can also turn the radio off
+\end{enumerate}
+
+\pagebreak
+\section{State diagrams}
+In order to avoid a very large and complex single statechart diagram, we decided to split it into the two categories mentioned throughout the report.
+\subsection{Primary dashboard}
+\vspace{10px}
+\begin{center}
+\includegraphics[width=15cm]{../Diagrams/statechartPrimaryD-v2.png}\\
+\end{center}
+Much as the activity diagram, the information display on the screen: "DisplayingInfo", is the main state. After turning the radio on, the screen displays the radio's current information. From there, the user can use the different functionalities available in the primary dashboard such as: changing the date and time, changing the volume, assigning a station to a preset, station selection with date synchronization, ...\\
+On the right side, we notice another region. The radio region displays the radio's state according to the user's input. The radio can either be in an idle state when turned on, playing state, when a channel has been selected and finally on sleep mode. The latter is automatically switched to after fifty seconds of inactivity. In previous diagrams, we specified that is has to be fifteen minutes of inactivity (or nine-hundred seconds), which would be quite inconvenient when simulating the statechart.
+
+\subsection{Secondary dashboard}
+\vspace{10px}
+\begin{center}
+\includegraphics[width=15cm]{../Diagrams/statechartSecondaryD-v1.png}\\
+\end{center}
+The second statechart simulates the secondary dashboard functionalities. The "DisplayingInfo" state is -as expected- the "center" state from which the user can perform various actions relative to the available radio features. Auto-tuning the radio is also implemented in the radio region, it searches for all stations with a good signal until all ten presets have been assigned.\\
+Breaking news are displayed in the main state when the option is activated and are broadcasted by the radio channel.\\
+All the other secondary functionalities are available as well:
+\begin{enumerate}
+\item Switching standards between DAB+ and FM
+\item Setting the alarm
+\item Using external audio input
+\item Using external audio output
+\item Adjusting the stereo balance
+\end{enumerate}
+
+\pagebreak
 \section{Class diagram}
 \vspace{10px}
 \begin{center}
@@ -332,77 +386,35 @@ for all available radio stations and will store them in its internal memory in t
 DESCRIPTION HERE.
 
 \pagebreak
-\section{Object diagram}
-\vspace{10px}
-\begin{center}
-%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
-\end{center}
-DESCRIPTION HERE.
-
-\pagebreak
-\section{State diagrams}
-INTRODUCTION HERE
-\subsection{Diagram 1}
-\vspace{10px}
-\begin{center}
-%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
-\end{center}
-DESCRIPTION HERE.
-
-\subsection{Diagram 2}
-\vspace{10px}
-\begin{center}
-%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
-\end{center}
-DESCRIPTION HERE.
-
-\subsection{Diagram 3}
-\vspace{10px}
-\begin{center}
-%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
-\end{center}
-DESCRIPTION HERE.
-
-\pagebreak
 \section{Sequence diagrams}
-INTRODUCTION HERE.
-\subsection{Diagram 1}
-\vspace{10px}
-\begin{center}
-%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
-\end{center}
-DESCRIPTION HERE.
-\subsection{Diagram 2}
+\subsection{Turn on/off}
 \vspace{10px}
 \begin{center}
 %\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
 \end{center}
 DESCRIPTION HERE.
 
-\pagebreak
-\section{Activity diagram}
+\subsection{Use primary dashboard}
 \vspace{10px}
 \begin{center}
-\includegraphics[width=15cm]{../Diagrams/Activity-v5.jpg}\\
+%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
 \end{center}
-While remaining consistent with the concept of two separate dashboards, we created the activity diagram following another -realistic- concept; the user can freely choose between functionalities, which means that the user can, for example, turn the volume up or down before choosing a station. In other words, most of the time, there are no mandatory sequences to follow.\\ In order the achieve this, we use a "hub" activity that will allow the user to switch from one activity to the other. This "hub" activity is  "Display infos on screen", which makes sens since the user has to constantly receive a feedback following their interaction with the radio. Doing so, we are able to start from any of the secondary dashboards and move on to whatever other action the user desires to do.\\
-In order the make the diagram as legible as possible, some arrows (Control flows) are overlapping in a manner that avoids as much as possible any confusion. Take secondary dashboard for example, it is clear that every functionality, except "Adjust stereo balance", once over, is redirected to the "hub" activity.
+DESCRIPTION HERE.
+\subsection{Use secondary dashboard}
+\vspace{10px}
+\begin{center}
+%\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
+\end{center}
+DESCRIPTION HERE.
+
 
 \pagebreak
-\section{Interaction Overview diagram}
+\section{Object diagram}
 \vspace{10px}
 \begin{center}
-\includegraphics[width=15cm]{../Diagrams/InteractionOverview-v2.jpg}\\
+%\\includegraphics[width=15cm]{../Diagrams/useCase-v4.jpg}\\
 \end{center}
-In this interaction overview diagram, we specify the steps taken by the user when manipulating the radio. Please note that there aren't as many sequence diagrams as referenced in each interaction. If done so, most of the sequence diagrams would have been uninterestingly similar and repetitive.\\
-The steps taken by the user are as follows:
-\begin{enumerate}
-\item The user turn the radio on
-\item They choose to use either the primary or secondary dashboard (or turn the radio off)
-\item Which leads them to choose on of the available functionalities in each category
-\item Once the action is performed, the user can once again choose between the two categories
-\item The user can also turn the radio off
-\end{enumerate}
+DESCRIPTION HERE.
 
 \pagebreak
 \topskip0pt

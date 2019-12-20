@@ -20,14 +20,14 @@
 \BOOKMARK [3][-]{subsubsection.1.3.16}{Broadcast radio feed}{subsection.1.3}% 20
 \BOOKMARK [3][-]{subsubsection.1.3.17}{Add/remove optional features}{subsection.1.3}% 21
 \BOOKMARK [3][-]{subsubsection.1.3.18}{Update existing features}{subsection.1.3}% 22
-\BOOKMARK [1][-]{section.2}{Class diagram}{}% 23
-\BOOKMARK [1][-]{section.3}{Object diagram}{}% 24
+\BOOKMARK [1][-]{section.2}{Activity diagram}{}% 23
+\BOOKMARK [1][-]{section.3}{Interaction Overview diagram}{}% 24
 \BOOKMARK [1][-]{section.4}{State diagrams}{}% 25
-\BOOKMARK [2][-]{subsection.4.1}{Diagram 1}{section.4}% 26
-\BOOKMARK [2][-]{subsection.4.2}{Diagram 2}{section.4}% 27
-\BOOKMARK [2][-]{subsection.4.3}{Diagram 3}{section.4}% 28
-\BOOKMARK [1][-]{section.5}{Sequence diagrams}{}% 29
-\BOOKMARK [2][-]{subsection.5.1}{Diagram 1}{section.5}% 30
-\BOOKMARK [2][-]{subsection.5.2}{Diagram 2}{section.5}% 31
-\BOOKMARK [1][-]{section.6}{Activity diagram}{}% 32
-\BOOKMARK [1][-]{section.7}{Interaction Overview diagram}{}% 33
+\BOOKMARK [2][-]{subsection.4.1}{Primary dashboard}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.2}{Secondary dashboard}{section.4}% 27
+\BOOKMARK [1][-]{section.5}{Class diagram}{}% 28
+\BOOKMARK [1][-]{section.6}{Sequence diagrams}{}% 29
+\BOOKMARK [2][-]{subsection.6.1}{Turn on/off}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.2}{Use primary dashboard}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.3}{Use secondary dashboard}{section.6}% 32
+\BOOKMARK [1][-]{section.7}{Object diagram}{}% 33
